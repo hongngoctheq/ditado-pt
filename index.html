@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102a27">
+  <meta name="description" content="Ứng dụng luyện nghe chép chính tả tiếng Bồ Đào Nha.">
+  <title>Ouvir & Escrever — Portuguese Dictation</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">Ouvir <span>&</span> Escrever</a>
+    <p>Phòng luyện dictation tiếng Bồ Đào Nha</p>
+  </header>
+
+  <main class="app-shell">
+    <aside class="lesson-panel" aria-label="Danh sách bài học">
+      <div class="panel-heading">
+        <p class="eyebrow">THƯ VIỆN</p>
+        <h1>Chọn bài nghe</h1>
+      </div>
+      <div id="lessonList" class="lesson-list"></div>
+    </aside>
+
+    <section class="workspace" aria-live="polite">
+      <div class="lesson-heading">
+        <div>
+          <p id="lessonMeta" class="eyebrow"></p>
+          <h2 id="lessonTitle"></h2>
+          <p id="lessonDescription" class="description"></p>
+        </div>
+        <span id="lessonLevel" class="level-pill"></span>
+      </div>
+
+      <section class="audio-card" aria-label="Trình phát âm thanh">
+        <audio id="audio" preload="metadata"></audio>
+        <div class="timeline-row">
+          <span id="currentTime">0:00</span>
+          <input id="timeline" type="range" min="0" max="100" value="0" step="0.1" aria-label="Vị trí phát âm thanh">
+          <span id="duration">0:00</span>
+        </div>
+        <div class="player-controls">
+          <button id="rewind" class="icon-button" type="button" aria-label="Lùi 5 giây">−5<span>giây</span></button>
+          <button id="playPause" class="play-button" type="button" aria-label="Phát âm thanh"><span id="playIcon">▶</span></button>
+          <button id="forward" class="icon-button" type="button" aria-label="Tiến 5 giây">+5<span>giây</span></button>
+        </div>
+        <div class="speed-row">
+          <span>Tốc độ</span>
+          <div id="speedControls" class="segmented" aria-label="Chọn tốc độ phát">
+            <button type="button" data-speed="0.75">0.75×</button>
+            <button type="button" data-speed="1" class="active">1×</button>
+            <button type="button" data-speed="1.25">1.25×</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="writing-card">
+        <label for="dictationInput">Viết những gì bạn nghe được</label>
+        <p>Dấu câu và chữ hoa không ảnh hưởng điểm. Dấu tiếng Bồ vẫn được chấm.</p>
+        <textarea id="dictationInput" rows="8" placeholder="Bắt đầu gõ bằng tiếng Bồ Đào Nha…" spellcheck="false"></textarea>
+        <div class="actions">
+          <button id="checkAnswer" class="primary-button" type="button">Chấm bài</button>
+          <button id="resetLesson" class="secondary-button" type="button">Làm lại</button>
+        </div>
+      </section>
+
+      <section id="results" class="results" hidden>
+        <div class="score-card">
+          <div class="score-ring" id="scoreRing"><strong id="scoreValue">0%</strong><span>chính xác</span></div>
+          <div>
+            <p class="eyebrow">KẾT QUẢ</p>
+            <h3 id="scoreMessage"></h3>
+            <p id="scoreExplanation"></p>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div><strong id="correctCount">0</strong><span>Đúng</span></div>
+          <div><strong id="missingCount">0</strong><span>Thiếu</span></div>
+          <div><strong id="extraCount">0</strong><span>Thừa</span></div>
+          <div><strong id="replaceCount">0</strong><span>Thay thế</span></div>
+        </div>
+
+        <div class="comparison-card">
+          <div class="comparison-heading">
+            <h3>Đối chiếu từng từ</h3>
+            <div class="legend"><span class="legend-correct">Đúng</span><span class="legend-missing">Thiếu</span><span class="legend-extra">Thừa</span><span class="legend-replace">Thay thế</span></div>
+          </div>
+          <div id="wordComparison" class="word-comparison"></div>
+        </div>
+
+        <details class="transcript-card" open>
+          <summary>Transcript chuẩn</summary>
+          <p id="transcriptText" lang="pt-PT"></p>
+        </details>
+      </section>
+    </section>
+  </main>
+
+  <footer>Học chậm mà chắc · Feito para praticar português europeu</footer>
+  <script src="app.js"></script>
+</body>
+</html>
