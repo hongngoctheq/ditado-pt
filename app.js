@@ -8,6 +8,16 @@ const lessons = [
     description: "Luyện nghe register ngoại giao với các cụm về hợp tác và tham vấn giữa hai nước.",
     audio: "audio/licao-01.mp3",
     transcript: "Portugal manifesta a sua disponibilidade para aprofundar a cooperação com o Vietname nos domínios da educação, da ciência, da tecnologia e da inovação. Quaisquer novas iniciativas deverão assentar em projetos tecnicamente viáveis, com fontes de financiamento claramente identificadas e benefícios mensuráveis para ambas as partes. Nesse sentido, os respetivos ministérios poderão iniciar consultas exploratórias nas próximas semanas, sem prejuízo dos mecanismos de cooperação já existentes."
+  },
+  {
+    id: 2,
+    title: "Transição energética",
+    theme: "Cooperação energética",
+    level: "C1",
+    durationLabel: "~60 giây",
+    description: "Luyện nghe ngôn ngữ ngoại giao thận trọng về nhóm công tác, điều kiện kỹ thuật và cam kết tài chính.",
+    audio: "audio/licao-02.mp3",
+    transcript: "Senhora Vice-Ministra, acolhemos com interesse a proposta vietnamita de reforçar a cooperação no domínio da transição energética. O nosso Governo está disponível para analisar a eventual criação de um grupo de trabalho conjunto, embora ainda não tenha sido tomada qualquer decisão quanto ao seu mandato ou calendário. Qualquer avanço deverá depender da viabilidade técnica dos projetos, da disponibilidade de recursos orçamentais e da compatibilidade das iniciativas com as obrigações europeias de Portugal. Importa igualmente esclarecer que este grupo não substituiria os mecanismos de diálogo já existentes, nem implicaria, nesta fase, qualquer compromisso financeiro adicional. Propomos, por conseguinte, que os ministérios competentes iniciem contactos exploratórios durante o próximo trimestre e preparem um documento de opções, de natureza não vinculativa. Caso estejam reunidas as condições necessárias, poderemos considerar o anúncio de um roteiro de cooperação por ocasião da próxima visita de alto nível."
   }
 ];
 
