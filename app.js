@@ -7,7 +7,7 @@ const lessons = [
     durationLabel: "~32 giây",
     description: "Luyện nghe register ngoại giao với các cụm về hợp tác và tham vấn giữa hai nước.",
     audio: "audio/licao-01.mp3",
-    transcript: "Portugal manifesta a sua disponibilidade para aprofundar a cooperação com o Vietname nos domínios da educação, da ciência, da tecnologia e da inovação. Quaisquer novas iniciativas deverão assentar em projetos tecnicamente viáveis, com fontes de financiamento claramente identificadas e benefícios mensuráveis para ambas as partes. Nesse sentido, os respetivos ministérios poderão iniciar consultas exploratórias nas próximas semanas, sem prejuízo dos mecanismos de cooperação já existentes."
+    transcript: "Portugal manifesta a sua disponibilidade para aprofundar a cooperação com o Vietname, nomeadamente nos domínios da transição energética e da economia azul. Consideramos, contudo, que quaisquer novas iniciativas deverão assentar em projetos tecnicamente viáveis, com fontes de financiamento claramente identificadas e benefícios mensuráveis para ambas as partes. Nesse contexto, propomos que os respectivos ministérios competentes iniciem consultas exploratórias, sem prejuízo dos mecanismos de cooperação já existentes."
   },
   {
     id: 2,
