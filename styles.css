@@ -9,8 +9,8 @@
   --line: #dedbcf;
   --green: #2e7d5b;
   --red: #b44949;
-  --blue: #3f6e91;
-  --orange: #b86a2d;
+  --extra: #55615d;
+  --purple: #7656a8;
   --shadow: 0 18px 45px rgba(25, 45, 40, 0.09);
 }
 
@@ -96,22 +96,59 @@ textarea:focus { border-color: var(--forest-light); box-shadow: 0 0 0 3px rgba(4
 .score-ring span { color: var(--muted); font-size: .66rem; }
 .score-card h3 { margin: 7px 0 5px; font-family: "Times New Roman", Times, serif; font-size: 1.5rem; }
 .score-card div > p:last-child { margin: 0; color: var(--muted); line-height: 1.5; }
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
-.stats-grid div { padding: 17px; border: 1px solid var(--line); border-radius: 13px; background: rgba(255,253,248,.65); text-align: center; }
-.stats-grid strong { display: block; font-family: "Times New Roman", Times, serif; font-size: 1.5rem; }
-.stats-grid span { color: var(--muted); font-size: .76rem; }
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.stats-grid div {
+  padding: 17px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: rgba(255,253,248,.65);
+  text-align: center;
+}
+.stats-grid strong {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+}
+.stats-grid span {
+  color: var(--muted);
+  font-size: .76rem;
+}
+/* Đúng */
+.stats-grid div:nth-child(1) strong,
+.stats-grid div:nth-child(1) span {
+  color: var(--green);
+}
+/* Thiếu */
+.stats-grid div:nth-child(2) strong,
+.stats-grid div:nth-child(2) span {
+  color: var(--red);
+}
+/* Thừa */
+.stats-grid div:nth-child(3) strong,
+.stats-grid div:nth-child(3) span {
+  color: var(--extra);
+}
+/* Thay thế */
+.stats-grid div:nth-child(4) strong,
+.stats-grid div:nth-child(4) span {
+  color: var(--purple);
+}
 .comparison-card { padding: 24px; }
 .comparison-heading { display: flex; align-items: center; justify-content: space-between; gap: 15px; margin-bottom: 18px; }
 .comparison-heading h3 { margin: 0; font-family: "Times New Roman", Times, serif; }
 .legend { display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted); font-size: .7rem; }
 .legend span::before { content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 4px; border-radius: 50%; background: currentColor; }
-.legend-correct { color: var(--green) !important; }.legend-missing { color: var(--red) !important; }.legend-extra { color: var(--blue) !important; }.legend-replace { color: var(--orange) !important; }
+.legend-correct { color: var(--green) !important; }.legend-missing { color: var(--red) !important; }.legend-extra { color: var(--extra) !important; }.legend-replace { color: var(--purple) !important; }
 .word-comparison { display: flex; flex-wrap: wrap; gap: 7px; line-height: 1.6; }
 .word { padding: 2px 6px; border-radius: 5px; }
 .word.correct { color: #276448; background: #e1f0e7; }
 .word.missing { color: #8e3434; background: #f8dddd; text-decoration: line-through; }
-.word.extra { color: #315f7e; background: #dcebf5; }
-.word.replace { color: #8b4b1f; background: #f8e2cf; }
+.word.extra { color: #46514e; background: #e4e8e6; }
+.word.replace { color: #65478f; background: #ece4f7; }
 .word.replace small { display: block; margin-top: -3px; font-size: .58rem; opacity: .8; }
 .transcript-card { padding: 0 24px; box-shadow: none; }
 .transcript-card summary { padding: 19px 0; cursor: pointer; font-family: "Times New Roman", Times, serif; font-weight: 700; }
