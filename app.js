@@ -18,6 +18,16 @@ const lessons = [
     description: "Luyện nghe ngôn ngữ ngoại giao thận trọng về nhóm công tác, điều kiện kỹ thuật và cam kết tài chính.",
     audio: "audio/licao-02.mp3",
     transcript: "Senhora Vice-Ministra, acolhemos com interesse a proposta vietnamita de reforçar a cooperação no domínio da transição energética. O nosso Governo está disponível para analisar a eventual criação de um grupo de trabalho conjunto, embora ainda não tenha sido tomada qualquer decisão quanto ao seu mandato ou calendário. Qualquer avanço deverá depender da viabilidade técnica dos projetos, da disponibilidade de recursos orçamentais e da compatibilidade das iniciativas com as obrigações europeias de Portugal. Importa igualmente esclarecer que este grupo não substituiria os mecanismos de diálogo já existentes, nem implicaria, nesta fase, qualquer compromisso financeiro adicional. Propomos, por conseguinte, que os ministérios competentes iniciem contactos exploratórios durante o próximo trimestre e preparem um documento de opções, de natureza não vinculativa. Caso estejam reunidas as condições necessárias, poderemos considerar o anúncio de um roteiro de cooperação por ocasião da próxima visita de alto nível."
+  },
+  {
+    id: 3,
+    title: "Cơ chế trao đổi thường niên",
+    theme: "Hợp tác kinh tế – thương mại",
+    level: "C1",
+    durationLabel: "~44 giây",
+    description: "Luyện nghe tiếng Việt với register ngoại giao về cơ chế hợp tác, mức cam kết, điều kiện triển khai và bước tiếp theo.",
+    audio: "audio/licao-03 VN.mp3",
+    transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam ghi nhận đề xuất của Bồ Đào Nha về việc thiết lập cơ chế trao đổi thường niên giữa các cơ quan xúc tiến thương mại hai nước. Chúng tôi cho rằng sáng kiến này có thể góp phần hỗ trợ doanh nghiệp tiếp cận thị trường, nhất là trong lĩnh vực logistics xanh và công nghệ cảng biển. Tuy nhiên, ở giai đoạn hiện nay, Việt Nam chưa thể cam kết về hình thức tổ chức hoặc nguồn kinh phí. Mọi bước tiếp theo cần phù hợp với pháp luật của mỗi nước, không trùng lặp với cơ chế Ủy ban hỗn hợp hiện có và dựa trên nhu cầu thực tế của doanh nghiệp. Vì vậy, chúng tôi đề nghị các đầu mối kỹ thuật tiến hành trao đổi không chính thức trong ba tháng tới và trình một số phương án để hai bên xem xét. Nếu đạt được đồng thuận, vấn đề này có thể được đưa vào chương trình nghị sự của kỳ họp Ủy ban hỗn hợp tiếp theo."
   }
 ];
 
