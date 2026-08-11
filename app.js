@@ -58,6 +58,16 @@ const lessons = [
     description: "Luyện nghe register ngoại giao về công cụ tài chính cho chuyển đổi năng lượng, điều kiện xem xét hỗ trợ và giới hạn cam kết tài chính.",
     audio: "audio/licao-06.mp3",
     transcript: "Senhora Vice-Ministra, Portugal acolhe com interesse a proposta do Vietname relativa à identificação de instrumentos financeiros para projetos de transição energética. Reconhecemos o potencial da iniciativa, sobretudo se esta permitir mobilizar investimento privado e apoiar projetos tecnicamente viáveis. Nesta fase, porém, o Governo português não tomou qualquer decisão quanto à participação num mecanismo financeiro específico nem quanto ao montante de uma eventual contribuição. Essa possibilidade só poderá ser considerada após a definição dos critérios de elegibilidade, da estrutura de governação e da repartição de responsabilidades entre as entidades participantes. Propomos, por isso, que os peritos das duas partes procedam a uma avaliação preliminar durante o próximo trimestre. Sem antecipar o resultado dessa avaliação, Portugal poderá analisar formas de apoio adequadas. Esta análise não deverá ser interpretada como um compromisso financeiro."
+  },
+  {
+    id: 7,
+    title: "Cooperação agrícola Angola–Vietname",
+    theme: "Agricultura e investimento",
+    level: "C1",
+    durationLabel: "42 giây",
+    description: "Luyện nghe về hợp tác nông nghiệp Angola–Việt Nam, chuỗi giá trị, chuyển giao công nghệ và đầu tư.",
+    audio: "audio/licao-07.mp3",
+    transcript: "Senhora Vice-Ministra, Angola reconhece a experiência do Vietname no desenvolvimento da agricultura tropical. No âmbito do Plano de Ação para a cooperação agrícola entre 2025 e 2030, os dois países pretendem reforçar a parceria ao longo de toda a cadeia de valor. As prioridades incluem a investigação científica, a seleção de sementes, a transferência de tecnologia, a mecanização e a formação de recursos humanos. Angola dispõe de terras e recursos hídricos, enquanto o Vietname possui experiência e tecnologias adequadas. Por isso, Angola encoraja as empresas vietnamitas a investir no setor agrícola e compromete-se a criar condições favoráveis em matéria de terras, infraestruturas e políticas públicas."
   }
 ];
 
