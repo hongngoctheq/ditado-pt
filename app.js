@@ -28,6 +28,16 @@ const lessons = [
     description: "Luyện nghe tiếng Việt với register ngoại giao về cơ chế hợp tác, mức cam kết, điều kiện triển khai và bước tiếp theo.",
     audio: "audio/licao-03 VN.mp3",
     transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam ghi nhận đề xuất của Bồ Đào Nha về việc thiết lập cơ chế trao đổi thường niên giữa các cơ quan xúc tiến thương mại hai nước. Chúng tôi cho rằng sáng kiến này có thể góp phần hỗ trợ doanh nghiệp tiếp cận thị trường, nhất là trong lĩnh vực logistics xanh và công nghệ cảng biển. Tuy nhiên, ở giai đoạn hiện nay, Việt Nam chưa thể cam kết về hình thức tổ chức hoặc nguồn kinh phí. Mọi bước tiếp theo cần phù hợp với pháp luật của mỗi nước, không trùng lặp với cơ chế Ủy ban hỗn hợp hiện có và dựa trên nhu cầu thực tế của doanh nghiệp. Vì vậy, chúng tôi đề nghị các đầu mối kỹ thuật tiến hành trao đổi không chính thức trong ba tháng tới và trình một số phương án để hai bên xem xét. Nếu đạt được đồng thuận, vấn đề này có thể được đưa vào chương trình nghị sự của kỳ họp Ủy ban hỗn hợp tiếp theo."
+  },
+  {
+    id: 4,
+    title: "Consultas políticas",
+    theme: "Diálogo político e cooperação multilateral",
+    level: "C1",
+    durationLabel: "1 phút 1 giây",
+    description: "Luyện nghe register ngoại giao về tham vấn chính trị, cơ chế thể chế và giới hạn mức cam kết của phía Bồ Đào Nha.",
+    audio: "audio/licao-04.mp3",
+    transcript: "Senhor Vice-Ministro, Portugal acolhe favoravelmente a proposta vietnamita de reforçar as consultas políticas entre os dois Ministérios dos Negócios Estrangeiros. Consideramos que um diálogo mais regular poderá contribuir para uma melhor coordenação em matérias multilaterais, nomeadamente no âmbito das Nações Unidas. Importa, contudo, esclarecer que, nesta fase, a parte portuguesa não está em condições de confirmar a criação de um novo mecanismo institucional. Qualquer decisão nesse sentido deverá ter em conta os canais de diálogo já existentes, as disponibilidades orçamentais e as competências das entidades envolvidas. Sem prejuízo dessas considerações, Portugal está disponível para analisar, com a parte vietnamita, modalidades práticas que permitam intensificar os contactos ao longo do próximo ano. Esta disponibilidade não constitui, por si só, um compromisso quanto à periodicidade ou ao nível de representação das futuras consultas."
   }
 ];
 
