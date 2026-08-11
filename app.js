@@ -48,6 +48,16 @@ const lessons = [
     description: "Luyện nghe tiếng Việt về tổ chức diễn đàn doanh nghiệp, điều kiện triển khai và giới hạn mức cam kết trong khuôn khổ chuyến thăm cấp cao.",
     audio: "audio/licao-05 VN.mp3",
     transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam đánh giá cao việc Bồ Đào Nha đề xuất tổ chức một diễn đàn doanh nghiệp nhân chuyến thăm cấp cao dự kiến vào đầu năm tới. Phía Việt Nam sẵn sàng phối hợp xác định các lĩnh vực ưu tiên và kết nối những doanh nghiệp có nhu cầu hợp tác thực chất. Tuy nhiên, ở thời điểm hiện nay, chúng tôi chưa thể xác nhận quy mô của diễn đàn hoặc cam kết sự tham dự của lãnh đạo cấp cao. Công tác chuẩn bị cần phụ thuộc vào chương trình chính thức của chuyến thăm và mức độ quan tâm của cộng đồng doanh nghiệp hai nước. Trước mắt, chúng tôi đề nghị các cơ quan đầu mối trao đổi danh sách lĩnh vực và doanh nghiệp tiềm năng trong sáu tuần tới. Trên cơ sở đó, hai bên có thể xem xét khả năng tổ chức diễn đàn nếu các điều kiện cần thiết được đáp ứng."
+  },
+  {
+    id: 6,
+    title: "Instrumentos financeiros",
+    theme: "Transição energética e financiamento",
+    level: "C1",
+    durationLabel: "59 giây",
+    description: "Luyện nghe register ngoại giao về công cụ tài chính cho chuyển đổi năng lượng, điều kiện xem xét hỗ trợ và giới hạn cam kết tài chính.",
+    audio: "audio/licao-06.mp3",
+    transcript: "Senhora Vice-Ministra, Portugal acolhe com interesse a proposta do Vietname relativa à identificação de instrumentos financeiros para projetos de transição energética. Reconhecemos o potencial da iniciativa, sobretudo se esta permitir mobilizar investimento privado e apoiar projetos tecnicamente viáveis. Nesta fase, porém, o Governo português não tomou qualquer decisão quanto à participação num mecanismo financeiro específico nem quanto ao montante de uma eventual contribuição. Essa possibilidade só poderá ser considerada após a definição dos critérios de elegibilidade, da estrutura de governação e da repartição de responsabilidades entre as entidades participantes. Propomos, por isso, que os peritos das duas partes procedam a uma avaliação preliminar durante o próximo trimestre. Sem antecipar o resultado dessa avaliação, Portugal poderá analisar formas de apoio adequadas. Esta análise não deverá ser interpretada como um compromisso financeiro."
   }
 ];
 
