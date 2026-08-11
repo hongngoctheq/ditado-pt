@@ -38,6 +38,16 @@ const lessons = [
     description: "Luyện nghe register ngoại giao về tham vấn chính trị, cơ chế thể chế và giới hạn mức cam kết của phía Bồ Đào Nha.",
     audio: "audio/licao-04.mp3",
     transcript: "Senhor Vice-Ministro, Portugal acolhe favoravelmente a proposta vietnamita de reforçar as consultas políticas entre os dois Ministérios dos Negócios Estrangeiros. Consideramos que um diálogo mais regular poderá contribuir para uma melhor coordenação em matérias multilaterais, nomeadamente no âmbito das Nações Unidas. Importa, contudo, esclarecer que, nesta fase, a parte portuguesa não está em condições de confirmar a criação de um novo mecanismo institucional. Qualquer decisão nesse sentido deverá ter em conta os canais de diálogo já existentes, as disponibilidades orçamentais e as competências das entidades envolvidas. Sem prejuízo dessas considerações, Portugal está disponível para analisar, com a parte vietnamita, modalidades práticas que permitam intensificar os contactos ao longo do próximo ano. Esta disponibilidade não constitui, por si só, um compromisso quanto à periodicidade ou ao nível de representação das futuras consultas."
+  },
+  {
+    id: 5,
+    title: "Diễn đàn doanh nghiệp",
+    theme: "Kinh tế – thương mại và chuyến thăm cấp cao",
+    level: "C1",
+    durationLabel: "40 giây",
+    description: "Luyện nghe tiếng Việt về tổ chức diễn đàn doanh nghiệp, điều kiện triển khai và giới hạn mức cam kết trong khuôn khổ chuyến thăm cấp cao.",
+    audio: "audio/licao-05 VN.mp3",
+    transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam đánh giá cao việc Bồ Đào Nha đề xuất tổ chức một diễn đàn doanh nghiệp nhân chuyến thăm cấp cao dự kiến vào đầu năm tới. Phía Việt Nam sẵn sàng phối hợp xác định các lĩnh vực ưu tiên và kết nối những doanh nghiệp có nhu cầu hợp tác thực chất. Tuy nhiên, ở thời điểm hiện nay, chúng tôi chưa thể xác nhận quy mô của diễn đàn hoặc cam kết sự tham dự của lãnh đạo cấp cao. Công tác chuẩn bị cần phụ thuộc vào chương trình chính thức của chuyến thăm và mức độ quan tâm của cộng đồng doanh nghiệp hai nước. Trước mắt, chúng tôi đề nghị các cơ quan đầu mối trao đổi danh sách lĩnh vực và doanh nghiệp tiềm năng trong sáu tuần tới. Trên cơ sở đó, hai bên có thể xem xét khả năng tổ chức diễn đàn nếu các điều kiện cần thiết được đáp ứng."
   }
 ];
 
