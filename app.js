@@ -71,13 +71,13 @@ const lessons = [
   },
   {
     id: 8,
-    title: "Hợp tác viễn thông và chuyển đổi số",
-    theme: "Mozambique – Kinh tế và công nghệ",
+    title: "Movitel tại Mozambique",
+    theme: "Viễn thông và đầu tư",
     level: "C1",
     durationLabel: "31 giây",
-    description: "Luyện nghe tiếng Việt về đóng góp của Movitel và định hướng mở rộng hợp tác Việt Nam–Mozambique trong các lĩnh vực công nghệ và năng lượng.",
+    description: "Luyện nghe tiếng Việt về hoạt động của Movitel tại Mozambique, hỗ trợ doanh nghiệp, chuyển giao công nghệ và đào tạo nhân lực.",
     audio: "audio/licao-08 VN.mp3",
-    transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam đánh giá cao những đóng góp của Movitel đối với việc mở rộng mạng lưới viễn thông, tạo việc làm và đào tạo nguồn nhân lực tại Mozambique. Để phát huy kết quả này, chúng tôi đề nghị hai bên tiếp tục duy trì các cơ chế hợp tác hiện có, đồng thời tạo điều kiện thuận lợi cho doanh nghiệp kết nối và tìm hiểu thị trường. Việt Nam mong muốn mở rộng hợp tác sang các lĩnh vực có nhiều tiềm năng như công nghệ thông tin, chuyển đổi số và năng lượng tái tạo. Chúng tôi kỳ vọng những nỗ lực đó sẽ góp phần đưa quan hệ song phương phát triển ngày càng thực chất và hiệu quả."
+    transcript: "Thưa Ngài Quốc vụ khanh, Việt Nam đánh giá cao những đóng góp thiết thực của Movitel trong việc mở rộng mạng lưới viễn thông, tạo việc làm và đào tạo nguồn nhân lực tại Mozambique. Chúng tôi cảm ơn Chính phủ Mozambique đã quan tâm và tạo điều kiện cho doanh nghiệp hoạt động trong thời gian qua. Việt Nam đề nghị phía Mozambique tiếp tục hỗ trợ Movitel tháo gỡ các khó khăn phát sinh, phù hợp với pháp luật sở tại. Chúng tôi kỳ vọng Movitel sẽ tiếp tục đầu tư lâu dài, tăng cường chuyển giao công nghệ và đào tạo nhân lực địa phương, qua đó đóng góp tích cực hơn nữa cho quan hệ hợp tác giữa hai nước."
   }
 ];
 
